@@ -1,0 +1,109 @@
+.playerCard {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.playerCard-PlayerSelect {
+    -webkit-appearance: none;
+    border-radius: 0;
+    border: 0;
+    background-color: #eaeaea;
+    background-image: url(/assets/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 230px center;
+    padding: 15px 20px;
+    width: 260px;
+    margin: 20px 20px 0 20px;
+    font-size: 15px;
+    position: relative;
+}
+
+.playerCard-PlayerContainer {
+    background-image: url("/assets/card-bg.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-top: 20px;
+}
+
+.playerCard-Image_Image {
+    width: 164px;
+    margin-left: 20px;
+    display: block;
+}
+
+.playerCard-Info {
+    background-color: #ec004f;
+    padding: 20px;
+}
+
+.playerCard-InfoWrapper {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.playerCard-InfoDetails_Name {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.playerCard-InfoDetails_Title {
+    color: #fff;
+    font-size: 14px;
+}
+
+.playerCard-Info_TeamLogo {
+    background-image: url(/assets/badges_sprite.png);
+    background-size: 900px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    position: absolute;
+    top: -56px;
+    right: 0;
+}
+
+.playerCard-Info_TeamLogo-1 {
+    background-position: -73px -72px;
+    height: 79px;
+    width: 79px;
+}
+
+.playerCard-Info_TeamLogo-11 {
+    background-position: -599px 302px;
+    height: 77px;
+    width: 76px;
+}
+
+.playerCard-Info_TeamLogo-12 {
+    background-position: -449px 227px;
+    height: 77px;
+    width: 76px;
+}
+
+.playerCard-Info_TeamLogo-21 {
+    background-position: -373px 75px;
+    height: 77px;
+    width: 77px;
+}
+
+.playerCard-Info_TeamLogo-26 {
+    background-position: 1px 1px;
+    height: 77px;
+    width: 76px;
+}
+
+.playerCard-InfoStatsItem {
+    background-color: #eaeaea;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+
+.playerCard-InfoStatsItem_Text::first-letter {
+    text-transform: uppercase;
+}
+
+.playerCard-InfoStatsItem_Stat {
+    font-weight: 700;
+}
