@@ -8,12 +8,17 @@ and
 
 ### `gulp js`
 
+ 
+  
+
 
 To make xml http call to server to get json data please start up server witht the following command:
 
-### `./app/server.js`
+### `node ./app/server.js`
 
 
+ 
+  
 
 
 ## App information, developer's instruction
